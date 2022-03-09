@@ -20,7 +20,7 @@ public static void main(String[] args)
    {
    System.out.println("On the " + nthDayOfChristmas + "rd day of Christmas, my true love sent to me,"); 
    }
-   if(nthDayOfChristmas != 1 && nthDayOfChristmas !=2 && nthDayOfChristmas !=3 && nthDayOfChristmas <= 12)
+   if(nthDayOfChristmas > 3 && nthDayOfChristmas <= 12)
    {
    System.out.println("On the " + nthDayOfChristmas + "th day of Christmas, my true love sent to me,"); 
    }
@@ -31,30 +31,30 @@ public static void main(String[] args)
    
    switch (nthDayOfChristmas) {
         case 12:
-            System.out.println("12 drummers drumming,");
+            System.out.println("Twelve Drummers Drumming,");
         case 11:
-            System.out.println("11 pipers piping,");
+            System.out.println("Eleven Pipers Piping,");
         case 10:
-            System.out.println("10 lords-a-leaping,");
+            System.out.println("Ten Lords-a-Leaping,");
         case 9:
-            System.out.println("9 ladies dancing,");
+            System.out.println("Nine Ladies Dancing,");
         case 8:
-            System.out.println("8 maids-a-milking,");
+            System.out.println("Eight Maids-a-Milking,");
         case 7:
-            System.out.println("7 swans-a-swimming,");
+            System.out.println("Seven Swans-a-Swimming,");
         case 6:
-            System.out.println("6 geese-a-laying,");
+            System.out.println("Six Geese-a-Laying,");
         case 5:
-            System.out.println("5 golden rings,");
+            System.out.println("Five Gold Rings,");
         case 4:
-            System.out.println("4 calling birds,");
+            System.out.println("Four Calling Birds,");
         case 3:
-            System.out.println("3 french hens,");
+            System.out.println("Three French Hens,");
         case 2:
-            System.out.println("2 turtle doves,");
+            System.out.println("Two Turtle Doves,");
         case 1:
-            System.out.println("And a partridge in a pear tree!");
-            break;
+            System.out.println("And a Partridge in a Pear Tree.");
+            break;        
         default:
             System.out.println("There are only 12 days of Christmas!");
             break;
