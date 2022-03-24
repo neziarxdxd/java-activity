@@ -1,3 +1,4 @@
+package midterm;
 import java.util.Scanner;
 
 public class ArrayMethod {

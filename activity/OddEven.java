@@ -1,3 +1,4 @@
+package activity;
 // import Scanner
 import java.util.Scanner;
 public class OddEven {

@@ -1,3 +1,4 @@
+package activity;
 // import scanner
 import java.util.Scanner;
 public class AscendingAndDescending{
