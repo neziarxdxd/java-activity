@@ -13,7 +13,7 @@ product of that number multiplied by each positive integer lower than it. For ex
             for (int j = 1; j <= i; j++) {
                 factorial *= j;
             }
-            
+
             System.out.println(i + " factorial is " + factorial);
 
         }
