@@ -5,34 +5,43 @@ public class AscendingAndDescending{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter three integers: ");
-        int num1 = input.nextInt();
-        int num2 = input.nextInt();
-        int num3 = input.nextInt();
+        int one = input.nextInt();
+        int two = input.nextInt();
+        int three = input.nextInt();
         
         // display in Ascending order
         System.out.println("Ascending order:");        
-        if(num1 < num2 && num1 < num3){
-            System.out.println(num1 + " " + num2 + " " + num3);
+        if(one < two && one < three){
+            System.out.println(one + " " + two + " " + three);
         }
-        else if(num2 < num1 && num2 < num3){
-            System.out.println(num2 + " " + num1 + " " + num3);
+        else if(two < one && two < three){
+            System.out.println(two + " " + one + " " + three);
         }
-        else if(num3 < num1 && num3 < num2){
-            System.out.println(num3 + " " + num1 + " " + num2);
+        else if(three < one && three < two){
+            System.out.println(three + " " + one + " " + two);
         }
         System.out.println("\n");
 
         // Display in Descending order
-        System.out.println("Descending order:");        
-        if(num1 > num2 && num1 > num3){
-            System.out.println(num1 + " " + num2 + " " + num3);
-        }
-        else if(num2 > num1 && num2 > num3){
-            System.out.println(num2 + " " + num1 + " " + num3);
-        }
-        else if(num3 > num1 && num3 > num2){
-            System.out.println(num3 + " " + num1 + " " + num2);
-        }
+        System.out.println("Descending order:");
+        if(one > two && two > three)
+          {
+             System.out.println(one + " " + two + " " + three);
+          }
+          else if(two > one && one > three)
+          {
+             System.out.println(two + " " + one + " " + three);
+          }
+          else if(three > two && two > one)
+          {
+             System.out.println(three + " " + two + " " + one);
+          }
+          else
+          {
+             System.out.println(one + " " + three + " " + two);
+          }
+
+
     }
 
 }
