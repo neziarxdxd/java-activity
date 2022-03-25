@@ -9,14 +9,20 @@ public class ArrayMethod {
                 and (5) display all values that are higher than the calculated average value. Save the file as 
                 ArrayMethod.java. 
          */
+
+        // Use a scanner to get the user input
+
         Scanner input = new Scanner(System.in);
+        // Create an array of 10 integers
         int[] array = new int[10];
         System.out.print("Enter an integer: ");
         for (int i = 0; i < array.length; i++) {            
+            // Get the user input and store it in the array
             array[i] = input.nextInt();
         }
+        // Call the methods
         System.out.println("Enter the limit number: ");
-        
+        // 
         int limit = input.nextInt();
         
         System.out.println("The array is: ");

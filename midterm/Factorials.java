@@ -9,8 +9,8 @@ product of that number multiplied by each positive integer lower than it. For ex
 
          // print  4 factorial is 4 * 3 * 2 * 1, or 24.
         for (int i = 1; i <= 16; i++) {
-            int factorial = 1;
-            for (int j = 1; j <= i; j++) {
+            long factorial = 1;
+            for (long j = 1; j <= i; j++) {
                 factorial *= j;
             }
 
