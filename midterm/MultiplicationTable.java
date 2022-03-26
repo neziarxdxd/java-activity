@@ -1,7 +1,15 @@
 
 public class MultiplicationTable {
     public static void main(String[] args) {
-        // first print the top header row
+        /**
+    Multiplication Table
+    Steps to complete the application:
+    - Create a loop that iterates through the numbers 1 to 9
+    - Inside the loop, create a loop that iterates through the numbers 1 to 9
+    - Inside the inner loop, multiply the two numbers and display the result
+    - Display like a multiplication table by formatting the output to be nicely aligned using the String.format method
+
+        **/
         System.out.format("            "); 
         System.out.println("Multiplication Table");
         System.out.format("      ");

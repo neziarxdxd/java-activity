@@ -8,9 +8,22 @@ public class ArrayMethod {
                 order, (3) display the sum of the integers, (4) display all values less than a limiting argument, 
                 and (5) display all values that are higher than the calculated average value. Save the file as 
                 ArrayMethod.java. 
+
+                STEPS to complete the application:
+                - Create an array of 10 integers.
+                - Create a loop that asks the user to enter 10 integers.
+                - Ask user to enter a limiting value.
+                - Create a loop that displays all the integers.
+                - Create a loop that displays all the integers in reverse order. By initializing the counter to the Last Index through the decrementing loop.
+                - Create a loop that calculates the sum of the integers by looping it and summing all the integers pass.
+                - Create a loop that displays all values less than a limiting argument.
+                - Create a loop that calculates the average value.
+                - Create a loop that displays all values that are higher than the calculated average value.
+                
+
          */
 
-        // Use a scanner to get the user input
+       
 
         Scanner input = new Scanner(System.in);
         // Create an array of 10 integers

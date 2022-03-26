@@ -3,7 +3,16 @@ public class Barchart
 {
    public static void main(String[] args)
    {
-      int artPoints, bobPoints, calPoints, danPoints, eliPoints;
+     /** 
+      Steps to complete the application:
+      - Create an array for name of players 
+      - Create an array for the number of goals they scored
+      - assign the values to the arrays by inputting the values from the user
+      - the points index is corresponding to the name of player index
+      - create a loop that multiplies the "*" by the number of points the player scored
+
+      **/
+
       String nameOfPlayers [] = {"Art", "Bob", "Cal", "Dan", "Eli"};
       int [] points = new int[5];
       Scanner input = new Scanner(System.in);
@@ -31,13 +40,5 @@ public class Barchart
             System.out.println();
       }
    }
-   public static void displayBar(int pp)
-   {
-      int points;
-      for(points = 0; points < pp; ++points)
-      {
-         System.out.print("*");
-      }
-      System.out.println();
-   }
+  
 }  
