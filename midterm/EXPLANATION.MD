@@ -26,7 +26,34 @@
 
 ##	(Printing four patterns using loops) Use nested loops that print the following patterns in four separate programs: 
   
+PATERN IV
 
+
+-	create the first loop that iterates through the numbers 1 to 6, this iteration it decreases by 1
+-	inside the loop, create a loop that iterates through the numbers 1 to 6 minus to the first current number, this iteration in increments of 1 then print a two spaces
+-	inside the loop, create a second loop that iterates through 1 to first loop current number, it increases by 1 then print the number with a single space
+-	after the looping of the first loop, print a new line
+
+PATTERN III
+
+
+-	create the first loop that iterates through the numbers 1 to 6, this iteration it increases by 1 
+-	inside the loop, create a loop that iterates through the numbers 6 to 1, this iteration in decrements by 1 then print a number with a single space if the number is less than the current number
+-	else print a two spaces
+-	after the looping of the first loop, print a new line
+
+	PATTERN II
+
+
+-	create the first loop that iterates through the numbers 6 to 1, this iteration it decreases by 1
+-	inside the loop, create a loop that iterates through the numbers 1 to the first current number, this iteration in increments of 1 then print a  number with a space then print new line after the first loop
+
+	PATTERN I
+
+    
+-	create the first loop that iterates through the numbers 1 to 6, this iteration it increases by 1
+-	inside the loop, create a loop that iterates 1 to 6 increasing by 1 then print a number with a single space 
+-	after the looping of the first loop, print a new line  
 
 
 ##	Write a program that uses nested for loops to print a multiplication table, as shown in the following sample run: 
