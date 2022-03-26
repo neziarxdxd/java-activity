@@ -42,15 +42,15 @@ PATTERN III
 -	else print a two spaces
 -	after the looping of the first loop, print a new line
 
-	PATTERN II
+PATTERN II
 
 
 -	create the first loop that iterates through the numbers 6 to 1, this iteration it decreases by 1
 -	inside the loop, create a loop that iterates through the numbers 1 to the first current number, this iteration in increments of 1 then print a  number with a space then print new line after the first loop
 
-	PATTERN I
+PATTERN I
 
-    
+
 -	create the first loop that iterates through the numbers 1 to 6, this iteration it increases by 1
 -	inside the loop, create a loop that iterates 1 to 6 increasing by 1 then print a number with a single space 
 -	after the looping of the first loop, print a new line  
