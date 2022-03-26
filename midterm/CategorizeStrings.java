@@ -4,6 +4,17 @@ public class CategorizeStrings
 {
    public static void main (String[] args)
    {
+      /**
+       Steps to complete the application:
+       - initialize all the variables, Max, cutoff, when to quit, short, lo
+       - Create a while loop that asks the user to enter a string. but only if the string is not equal to "ZZZ" and when reach the max, it will quit the loop
+       - use if statement to check if the string is longer than the cutoff or shorter than the cutoff
+       - then add the string to the appropriate array
+       - if user exits or reaches the max
+       - ask the use what output they want to see, short or long
+       - then create a loop that displays the strings in the appropriate array
+      
+      **/
       final int MAX = 10;
       final int CUTOFF = 10;
       final String QUIT = "ZZZ";
