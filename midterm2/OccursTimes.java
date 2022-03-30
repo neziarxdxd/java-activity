@@ -1,3 +1,5 @@
+package midterm2;
+
 import java.util.Scanner;
 
 public class OccursTimes {
@@ -15,7 +17,7 @@ public class OccursTimes {
         **/
 
         Scanner input = new Scanner(System.in);
-        int [] num = new int[200]; 
+        int [] num = new int[10]; 
         int [] count = new int[200];
         //Declare counter variable i
         //and temp variable that will

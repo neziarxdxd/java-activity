@@ -1,3 +1,5 @@
+package midterm2;
+
 import java.util.Scanner;
 
 public class FindElementPosition {
