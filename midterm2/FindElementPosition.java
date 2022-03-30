@@ -37,7 +37,7 @@ public class FindElementPosition {
         if (position == -1) {
             System.out.println("Element not found");
         } else {
-            System.out.println("Element found at position " + position);
+            System.out.println("Element found at position " + (position+1));
         }
         
     }
