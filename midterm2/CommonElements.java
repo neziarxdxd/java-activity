@@ -26,7 +26,7 @@ public class CommonElements {
         int size2 = 10;
         int[] array2 = new int[size2];
         // get the value of elements in array2 from user
-        for (int i = 0; i < size2; i++) {
+        for (int i = 0; i < size2-2; i++) {
             array2[i] = input.nextInt();
         }
         // initialize the size of array
